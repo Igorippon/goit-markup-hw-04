@@ -299,12 +299,36 @@ body {
     text-align: center;
 }
 
+.team-list-icon {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 8px;
+}
+
+.team-item-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.team-soc-link {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: var(--primary-brand);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #FFFFFF;
+}
+
 /* footer */
 
 .footerly {
     background: var(--dark);
     padding-top: 100px;
     padding-bottom: 100px;
+    display: flex;
 }
 
 .footerly-text {
@@ -315,6 +339,50 @@ body {
 
 .footerly-logo {
     color: var(--light);
+}
+
+.footerly-icon {
+    display: block;
+    margin-left: 120px;
+    width: 208px;
+}
+
+.container-logo {
+    display: flex;
+
+}
+
+.footerly-list-icon {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.footerly-item-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.footerly-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--mien-title-color);
+}
+
+.footerly-soc-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--primary-brand);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #FFFFFF;
 }
 
 /* Portfolio */
