@@ -343,6 +343,11 @@ body {
     fill: var(--white-background);
 }
 
+.team-soc-link:hover,
+.team-soc-link:focus {
+    background-color: var(--success);
+}
+
 /* customers */
 
 .customers {
@@ -450,6 +455,11 @@ body {
     justify-content: center;
     align-items: center;
     fill: var(--white-background);
+}
+
+.footerly-soc-link:focus,
+.footerly-soc-link:hover {
+    background-color: #31D0AA;
 }
 
 /* Portfolio */
